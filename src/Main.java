@@ -31,10 +31,10 @@ public class Main {
 
         System.out.println("--------------------------------------");
 
-                int numero = 15;
-                boolean maiorQueDez = numero > 10;
+                int num = 15;
+                boolean maiorQueDez = num > 10;
 
-                System.out.println("O número " + numero + " é maior que 10? " + maiorQueDez);
+                System.out.println("O número " + num + " é maior que 10? " + maiorQueDez);
 
         System.out.println("--------------------------------------");
 
@@ -51,9 +51,20 @@ public class Main {
                 System.out.println("A área do retângulo é: " + area);
 
         System.out.println("--------------------------------------");
-        
+
                 String nome = "Giovanna";
                 System.out.println("Olá, " + nome + "! Bem-vindo ao curso de Java.");
+
+        System.out.println("--------------------------------------");
+
+        int numero = 8;
+                if (numero % 2 == 0) {
+                    System.out.println("O número " + numero + " é par.");
+                } else {
+                    System.out.println("O número " + numero + " é ímpar.");
+                }
+
+
             }
         }
 
