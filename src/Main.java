@@ -17,5 +17,11 @@ public class Main {
         System.out.println("A média do número long é: " + media3);
 
 
-    }
-}
+
+                long distancia = 149600000L;
+
+                System.out.println("A distância da Terra ao Sol é: " + distancia + " km.");
+            }
+        }
+
+        
