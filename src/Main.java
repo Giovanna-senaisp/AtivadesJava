@@ -64,8 +64,45 @@ public class Main {
                     System.out.println("O número " + numero + " é ímpar.");
                 }
 
+        System.out.println("--------------------------------------");
 
-            }
+        int a = 5;
+        int b = a++;
+        int c = ++a;
+
+        System.out.println("Valor de a: " + a);
+        System.out.println("Valor de b: " + b);
+        System.out.println("Valor de c: " + c);
+
+        System.out.println("--------------------------------------");
+
+        int valor = 20;
+        valor = valor + 5;
+        valor = valor * 2;
+        valor = valor - 3;
+        valor = valor / 2;
+        valor = valor % 4;
+        System.out.println("Resultado final: " + valor);
+
+        System.out.println("--------------------------------------");
+
+        int senai = 210;
+        int senai1 = 10;
+        System.out.println("Resultado da soma é: "+ (senai+senai1));
+
+        System.out.println("--------------------------------------");
+
+        int ageYears = 32;
+        int ageDays = ageYears * 365;
+        long ageSeconds = ageYears * 365 * 24L * 60 * 60;
+        System.out.println("Você já tem " + ageDays
+                + " dias de idade.");
+
+        System.out.println("Você já tem " + ageSeconds
+                + " segundos de idade.");
+
+
+    }
         }
 
 
